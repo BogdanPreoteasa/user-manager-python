@@ -1,18 +1,4 @@
-"""
-A deliberately complex Python application intended to exercise GitHub CodeQL.
 
-This app mixes:
-- Flask web API
-- SQLite persistence
-- Authentication & authorization
-- File uploads & parsing
-- Subprocess execution
-- Deserialization
-- Logging
-- Background jobs
-
-NOTE: This code is intentionally *not secure* in places. Do NOT deploy.
-"""
 
 import os
 import sqlite3
